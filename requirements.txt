@@ -1,2 +1,6 @@
-elasticsearch>=6.0.0,<7.0.0
-
+elasticsearch==7.17.3
+requests
+nose
+pypandoc
+twine
+pysolr

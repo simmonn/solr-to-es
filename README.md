@@ -19,7 +19,7 @@ usage: solr-to-es [-h] [--solr-query SOLR_QUERY] [--solr-fields COMMA_SEP_FIELDS
 The following example will page through all documents on the local Solr, and submit them to the local Elasticsearch server in the index `es_index` with a document type of `solr_docs`.
 
 ```bash
-solr-to-es http://localhost:8983/solr/<<collection_name>> http://localhost:9200 <<collection_name>> solr_docs
+solr-to-es http://localhost:8983/solr/<<collection_name>> http://localhost:9200 <index> <doc_type>
 ```
 
 `solr_url` is the full url to your Solr,
